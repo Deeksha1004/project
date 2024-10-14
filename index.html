@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Name</title>
+    <link rel="stylesheet" href="web.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to DMI Engineering college</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#faculty">Faculty</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Your Future Begins Here</h2>
+        <p>Transforming lives through education.</p>
+        <a href="#contact" class="cta-button">Get Started</a>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>DMI Engineering College, we provide high-quality education that prepares students for successful careers and lifelong learning.</p>
+    </section>
+
+    <section id="programs">
+        <h2>Programs Offered</h2>
+        <ul>
+            <li>Bachelor of Science in Computer Science</li>
+            <li>Master of Business Administration</li>
+            <li>Bachelor of Arts in Graphic Design</li>
+            <li>Diploma in Digital Marketing</li>
+            <li>Associate Degree in Nursing</li>
+        </ul>
+    </section>
+
+    <section id="faculty">
+        <h2>Meet Our Faculty</h2>
+        <div class="faculty-member">
+            <h3>Dr. Jane Smith</h3>
+            <p>Professor of Computer Science</p>
+        </div>
+        <div class="faculty-member">
+            <h3>Mr. John Doe</h3>
+            <p>Assistant Professor of Business</p>
+        </div>
+        <div class="faculty-member">
+            <h3>Ms. Emily Johnson</h3>
+            <p>Senior Lecturer in Design</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 DMI Engineering College. All rights reserved.</p>
+    </footer>
+</body>
+</html>
